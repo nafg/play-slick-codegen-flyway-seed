@@ -1,8 +1,5 @@
-logs
-target
-/.idea
-/.idea_modules
-/.classpath
-/.project
-/.settings
-/RUNNING_PID
+target/
+boot/
+lib_managed/
+src_managed/
+project/plugins/project/

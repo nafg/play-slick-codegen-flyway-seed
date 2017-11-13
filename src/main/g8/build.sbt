@@ -23,6 +23,6 @@ lazy val root = (project in file("."))
     Conf.dbConf := {
       val cfg = ConfigFactory.parseFile((resourceDirectory in Compile).value / "application.conf")
       val prefix = "slick.dbs.default"
-      (cfg.getString(s"$prefix.db.url"), cfg.getString(s"$prefix.user"), cfg.getString(s"$prefix.password"))
+      (cfg.getString(s"\$prefix.db.url"), cfg.getString(s"\$prefix.user"), cfg.getString(s"\$prefix.password"))
     }
   )

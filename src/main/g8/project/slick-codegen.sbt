@@ -1,2 +1,1 @@
-libraryDependencies += "com.typesafe.slick" %% "slick-codegen" % "3.2.1"
-
+libraryDependencies += "com.typesafe.slick" %% "slick-codegen" % "3.2.3"
